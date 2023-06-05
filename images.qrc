@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/down.png</file>
+        <file>images/home.png</file>
+        <file>images/list.png</file>
+        <file>images/road.png</file>
+        <file>images/setting.png</file>
+        <file>images/warning.png</file>
+        <file>images/001.jpg</file>
+        <file>images/002.jpg</file>
+        <file>images/003.jpg</file>
+        <file>images/004.png</file>
+        <file>images/005.png</file>
+        <file>images/006.jpg</file>
+        <file>images/icon.png</file>
+        <file>images/off.png</file>
+        <file>images/on.png</file>
+        <file>images/201.png</file>
+        <file>images/202.png</file>
+        <file>images/path.png</file>
+        <file>images/check.png</file>
+        <file>images/ins.png</file>
+        <file>images/203.png</file>
+    </qresource>
+</RCC>

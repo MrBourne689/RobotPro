@@ -1,0 +1,735 @@
+2023-05-28 11:37:09 周日 
+QSqlQuery::exec: database not open
+ 
+2023-05-28 11:37:09 周日 
+hWnd1=1119506
+ 
+2023-05-28 11:37:09 周日 
+Unsupported ICC profile class 70727472
+ 
+2023-05-28 11:37:09 周日 
+fromIccProfile: failed general sanity check
+ 
+2023-05-28 11:37:15 周日 
+QSqlQuery::exec: database not open
+ 
+2023-05-28 11:37:15 周日 
+hWnd1=464200
+ 
+2023-05-28 11:37:15 周日 
+Unsupported ICC profile class 70727472
+ 
+2023-05-28 11:37:15 周日 
+fromIccProfile: failed general sanity check
+ 
+2023-05-28 12:26:17 周日 
+QSqlQuery::exec: database not open
+ 
+2023-05-28 12:26:17 周日 
+hWnd1=3216732
+ 
+2023-05-28 12:26:17 周日 
+Unsupported ICC profile class 70727472
+ 
+2023-05-28 12:26:17 周日 
+fromIccProfile: failed general sanity check
+ 
+2023-05-28 12:26:25 周日 
+3: "127.1.1.1" "37777" "admin" "admin123"
+ 
+2023-05-28 12:26:25 周日 
+ip3 "127.1.1.1"
+ 
+2023-05-28 12:26:25 周日 
+10
+ 
+2023-05-28 12:26:25 周日 
+Connected!
+ 
+2023-05-28 12:26:25 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:25 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:25 周日 
+START
+ 
+2023-05-28 12:26:26 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:26 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:27 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:27 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:28 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:28 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:29 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:29 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:30 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:30 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:46 周日 
+QSqlQuery::exec: database not open
+ 
+2023-05-28 12:26:46 周日 
+hWnd1=922208
+ 
+2023-05-28 12:26:47 周日 
+Unsupported ICC profile class 70727472
+ 
+2023-05-28 12:26:47 周日 
+fromIccProfile: failed general sanity check
+ 
+2023-05-28 12:26:53 周日 
+3: "127.1.1.1" "37777" "admin" "admin123"
+ 
+2023-05-28 12:26:53 周日 
+ip3 "127.1.1.1"
+ 
+2023-05-28 12:26:53 周日 
+10
+ 
+2023-05-28 12:26:53 周日 
+Connected!
+ 
+2023-05-28 12:26:53 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:53 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:53 周日 
+START
+ 
+2023-05-28 12:26:54 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:54 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:55 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:55 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:56 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:56 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:57 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:57 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:58 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:58 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:26:59 周日 
+plc采集36个数
+ 
+2023-05-28 12:26:59 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:00 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:00 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:01 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:01 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:02 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:02 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:03 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:03 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:04 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:04 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:05 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:05 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:06 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:06 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:07 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:07 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:08 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:08 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:09 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:09 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:10 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:10 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:11 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:11 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:12 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:12 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:13 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:13 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:14 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:14 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:15 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:15 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:16 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:16 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:17 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:17 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:18 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:18 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:19 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:19 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:20 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:20 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:21 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:21 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:22 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:22 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:23 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:23 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:24 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:24 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:25 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:25 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:26 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:26 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:27 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:27 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:28 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:28 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:29 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:29 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:30 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:30 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:31 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:31 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:32 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:32 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:33 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:33 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:34 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:34 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:35 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:35 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:36 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:36 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:37 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:37 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:38 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:38 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:39 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:39 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:40 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:40 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:41 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:41 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:42 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:42 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:43 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:43 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:44 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:44 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:45 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:45 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:46 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:46 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:47 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:47 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:48 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:48 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:49 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:49 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:50 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:50 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:51 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:51 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:52 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:52 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:53 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:53 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:54 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:54 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:55 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:55 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:56 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:56 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:57 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:57 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:58 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:58 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:27:59 周日 
+plc采集36个数
+ 
+2023-05-28 12:27:59 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:00 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:00 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:01 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:01 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:02 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:02 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:03 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:03 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:04 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:04 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:05 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:05 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:06 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:06 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:07 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:07 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:08 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:08 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:09 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:09 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:10 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:10 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:11 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:11 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:12 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:12 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:13 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:13 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:14 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:14 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:15 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:15 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:16 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:16 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:17 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:17 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:18 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:18 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:19 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:19 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:20 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:20 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:21 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:21 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:22 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:22 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:25 周日 
+QSqlQuery::exec: database not open
+ 
+2023-05-28 12:28:25 周日 
+hWnd1=856848
+ 
+2023-05-28 12:28:25 周日 
+Unsupported ICC profile class 70727472
+ 
+2023-05-28 12:28:25 周日 
+fromIccProfile: failed general sanity check
+ 
+2023-05-28 12:28:30 周日 
+3: "127.1.1.1" "37777" "admin" "admin123"
+ 
+2023-05-28 12:28:30 周日 
+ip3 "127.1.1.1"
+ 
+2023-05-28 12:28:30 周日 
+10
+ 
+2023-05-28 12:28:30 周日 
+Connected!
+ 
+2023-05-28 12:28:30 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:30 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:30 周日 
+START
+ 
+2023-05-28 12:28:31 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:31 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:32 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:32 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:33 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:33 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:34 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:34 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:35 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:35 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:35 周日 
+我被触发了1
+ 
+2023-05-28 12:28:35 周日 
+plc_kozhishu:  1
+ 
+2023-05-28 12:28:35 周日 
+发送的数据为：  QVector(1)
+ 
+2023-05-28 12:28:35 周日 
+(Client) Device is not connected
+ 
+2023-05-28 12:28:36 周日 
+plc采集36个数
+ 
+2023-05-28 12:28:36 周日 
+(Client) Device is not connected
+ 

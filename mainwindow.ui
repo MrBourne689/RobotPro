@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1756</width>
+    <height>907</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>95</width>
+    <height>95</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>轨道机器人控制系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_12">
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>副摄像头</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame2">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>主摄像头</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QFrame" name="frame1">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1756</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menusystem">
+    <property name="title">
+     <string>系统</string>
+    </property>
+    <addaction name="cam_Action"/>
+    <addaction name="PLC_action"/>
+    <addaction name="robot_Action"/>
+    <addaction name="add_Action"/>
+    <addaction name="action_cutcam"/>
+    <addaction name="action_cutrob"/>
+    <addaction name="action_cutplc"/>
+   </widget>
+   <widget class="QMenu" name="menutool">
+    <property name="title">
+     <string>工具栏</string>
+    </property>
+    <addaction name="Rpanel_Action"/>
+    <addaction name="Ppanel_Action"/>
+    <addaction name="Ppanel_Action_2"/>
+    <addaction name="actionkong"/>
+    <addaction name="actionjiqiren"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+   </widget>
+   <addaction name="menusystem"/>
+   <addaction name="menutool"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="home_Action"/>
+   <addaction name="poiling_Action"/>
+   <addaction name="history_Action"/>
+   <addaction name="alarm_Action"/>
+   <addaction name="moniguiji_Actiom"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="robot_Dock">
+   <property name="minimumSize">
+    <size>
+     <width>597</width>
+     <height>455</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="windowTitle">
+    <string>机器人状态面板</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_15">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>电机转速</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>m/s</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QCheckBox" name="checkBox_17">
+       <property name="text">
+        <string>机器人反向</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="5">
+      <widget class="QPushButton" name="kaiqi_caijiqi_8">
+       <property name="text">
+        <string>一键断电</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="5">
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="checkBox_14">
+         <property name="text">
+          <string>自动-启动</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QCheckBox" name="checkBox_5">
+         <property name="text">
+          <string>前摄像头电源</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QCheckBox" name="checkBox_20">
+         <property name="text">
+          <string>2#继电器</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="checkBox_11">
+         <property name="text">
+          <string>电动推杆压紧</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="checkBox_10">
+         <property name="text">
+          <string>3#4#电机上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="checkBox_15">
+         <property name="text">
+          <string>一键上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="checkBox_12">
+         <property name="text">
+          <string>电动推杆松开</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="checkBox_7">
+         <property name="text">
+          <string>前灯上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QCheckBox" name="checkBox_8">
+         <property name="text">
+          <string>后灯上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="checkBox_13">
+         <property name="text">
+          <string>底摄像头电源</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="checkBox_6">
+         <property name="text">
+          <string>后摄像头电源</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QCheckBox" name="checkBox_18">
+         <property name="text">
+          <string>救援机构落下</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="checkBox_3">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>1#2#电机上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCheckBox" name="checkBox_9">
+         <property name="text">
+          <string>侧灯上电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QCheckBox" name="checkBox_19">
+         <property name="text">
+          <string>1#继电器</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QCheckBox" name="checkBox_16">
+         <property name="text">
+          <string>救援机构抬起</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="3" column="0">
+      <widget class="QComboBox" name="comboBox"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="kaiqi_caijiqi_7">
+       <property name="text">
+        <string>开始行进</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="kaiqi_caijiqi_10">
+       <property name="text">
+        <string>停止行进</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_9">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>数值无异常</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="path_Dock">
+   <property name="minimumSize">
+    <size>
+     <width>318</width>
+     <height>337</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>337</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>轨迹面板</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_14">
+    <layout class="QGridLayout" name="gridLayout_10">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>288</width>
+     <height>86</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>机器人组</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="checkBox_82">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>1#机器人</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="checkBox_81">
+       <property name="text">
+        <string>2#机器人</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="checkBox_22">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>机器人连接状态</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="checkBox_23">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>PLC连接状态</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_2">
+   <property name="windowTitle">
+    <string>控制面板</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="title">
+        <string>运动控制</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_14">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="checkBox_32">
+          <property name="text">
+           <string>手动模式</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" colspan="2">
+         <widget class="QCheckBox" name="checkBox_34">
+          <property name="text">
+           <string>自动模式</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3" colspan="2">
+         <widget class="QCheckBox" name="checkBox_35">
+          <property name="text">
+           <string>调试模式</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5" colspan="2">
+         <widget class="QCheckBox" name="checkBox_33">
+          <property name="text">
+           <string>自由模式</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="7">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>一键上电</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="8">
+         <widget class="QTabWidget" name="tabWidget_2">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_9">
+           <attribute name="title">
+            <string>Tab 1</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_18">
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="checkBox_36">
+              <property name="text">
+               <string>机器人正向运行</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QCheckBox" name="checkBox_37">
+              <property name="text">
+               <string>机器人反向运行</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_19">
+              <property name="text">
+               <string>巡检速度（m/s）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_12"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_20">
+              <property name="text">
+               <string>目标位置（m）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_13"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_10">
+           <attribute name="title">
+            <string>Tab 2</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_19">
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_14"/>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_15"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>巡检点停留时间（s）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_22">
+              <property name="text">
+               <string>自动巡检速度（m/s）</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QCheckBox" name="checkBox_38">
+              <property name="text">
+               <string>定点视频</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="checkBox_39">
+              <property name="text">
+               <string>连续视频</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_16"/>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>定点已巡检点/定点总巡检数</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_11">
+           <attribute name="title">
+            <string>页</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>     巡检点 距离</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLineEdit" name="lineEdit_2"/>
+            </item>
+            <item row="0" column="1">
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_12">
+           <attribute name="title">
+            <string>页</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="text">
+           <string>开始任务</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2" colspan="2">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="text">
+           <string>停止任务</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4" colspan="2">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="text">
+           <string>视频录制</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="6" colspan="2">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="text">
+           <string>停止录制</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="property_Dock">
+   <property name="minimumSize">
+    <size>
+     <width>109</width>
+     <height>135</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>524287</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>属性面板</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_16">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="property_Widget">
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAsNeeded</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="rowCount">
+        <number>15</number>
+       </property>
+       <property name="columnCount">
+        <number>2</number>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>125</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column>
+        <property name="text">
+         <string>机器人</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>属性</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="3" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="4" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="5" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="6" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="7" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="8" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="9" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="10" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="11" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="12" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="13" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="14" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_3">
+   <property name="windowTitle">
+    <string>云台控制</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QGridLayout" name="gridLayout_13">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>步进</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QSpinBox" name="spinBox"/>
+        </item>
+        <item row="0" column="2">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QCheckBox" name="checkBox">
+            <property name="text">
+             <string>主摄像头</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="checkBox_2">
+            <property name="text">
+             <string>副摄像头</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="btn_LUP">
+          <property name="text">
+           <string>左上</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="btn_UP">
+          <property name="text">
+           <string>上</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="btn_RUP">
+          <property name="text">
+           <string>右上</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="btn_L">
+          <property name="text">
+           <string>左</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="stop_btn">
+          <property name="text">
+           <string>停止</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="btn_R">
+          <property name="text">
+           <string>右</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="btn_LD">
+          <property name="text">
+           <string>左下</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="btn_D">
+          <property name="text">
+           <string>下</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="btn_RD">
+          <property name="text">
+           <string>右下</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="ZD_btn">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="FD_btn">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="AD_btn">
+          <property name="text">
+           <string>-</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>镜头</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="label_3">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>焦距</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>光圈</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QPushButton" name="ZA_btn">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QPushButton" name="FA_btn">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QPushButton" name="AA_btn">
+          <property name="text">
+           <string>+</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="PLC_dock">
+   <property name="windowTitle">
+    <string>PLC_状态</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QGridLayout" name="gridLayout_15">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="checkBox_28">
+         <property name="text">
+          <string>1#提升装置上升</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="checkBox_25">
+         <property name="text">
+          <string>1#电动门开门</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="checkBox_27">
+         <property name="text">
+          <string>1#电动门停止</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="checkBox_31">
+         <property name="text">
+          <string>2#充电桩充充电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QCheckBox" name="checkBox_44">
+         <property name="text">
+          <string>2#提升装置上升</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="checkBox_30">
+         <property name="text">
+          <string>2#电动门开门</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCheckBox" name="checkBox_42">
+         <property name="text">
+          <string>1#提升装置停止</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="checkBox_24">
+         <property name="text">
+          <string>1#电动门关门</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QCheckBox" name="checkBox_29">
+         <property name="text">
+          <string>1#提升装置下降</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="checkBox_26">
+         <property name="text">
+          <string>2#电动门停止</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QCheckBox" name="checkBox_40">
+         <property name="text">
+          <string>2#提升装置下降</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="checkBox_41">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>1#充电桩充充电</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="checkBox_21">
+         <property name="text">
+          <string>2#电动门关门</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QCheckBox" name="checkBox_43">
+         <property name="text">
+          <string>2#提升装置停止</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_4">
+   <property name="windowTitle">
+    <string>PLC_属性</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_5">
+    <layout class="QGridLayout" name="gridLayout_16">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="property_Widget_2">
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAsNeeded</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="rowCount">
+        <number>26</number>
+       </property>
+       <property name="columnCount">
+        <number>3</number>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>125</number>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>充电桩充电状态</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>充电桩充机器人到位</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>电动门开到位</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>电动门关到位</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>电动门故障</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>提升装置上到位</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>提升装置下到位</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>提升装置机器人到位1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>提升装置机器人到位2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>提升装置故障</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>水池液位高</string>
+        </property>
+       </row>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column>
+        <property name="text">
+         <string>属性</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>1#</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>2#</string>
+        </property>
+       </column>
+       <item row="11" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="12" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="13" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="14" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="15" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="16" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="17" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="18" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="19" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="20" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="21" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="22" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="23" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="24" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item row="25" column="0">
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="cam_Action">
+   <property name="text">
+    <string>连接相机</string>
+   </property>
+  </action>
+  <action name="robot_Action">
+   <property name="text">
+    <string>连接机器人</string>
+   </property>
+  </action>
+  <action name="add_Action">
+   <property name="text">
+    <string>IP登录管理系统</string>
+   </property>
+  </action>
+  <action name="home_Action">
+   <property name="text">
+    <string>主页</string>
+   </property>
+  </action>
+  <action name="poiling_Action">
+   <property name="text">
+    <string>巡检</string>
+   </property>
+  </action>
+  <action name="history_Action">
+   <property name="text">
+    <string>历史记录</string>
+   </property>
+  </action>
+  <action name="alarm_Action">
+   <property name="text">
+    <string>告警信息</string>
+   </property>
+  </action>
+  <action name="Rpanel_Action">
+   <property name="text">
+    <string>机器人面板</string>
+   </property>
+  </action>
+  <action name="Ppanel_Action">
+   <property name="text">
+    <string>属性面板</string>
+   </property>
+  </action>
+  <action name="Ppanel_Action_2">
+   <property name="text">
+    <string>轨迹面板</string>
+   </property>
+  </action>
+  <action name="moniguiji_Actiom">
+   <property name="text">
+    <string>模拟轨迹</string>
+   </property>
+  </action>
+  <action name="actionkong">
+   <property name="text">
+    <string>控制面板</string>
+   </property>
+  </action>
+  <action name="actionjiqiren">
+   <property name="text">
+    <string>机器人状态面板</string>
+   </property>
+  </action>
+  <action name="PLC_action">
+   <property name="text">
+    <string>连接PLC</string>
+   </property>
+   <property name="toolTip">
+    <string>连接PLC</string>
+   </property>
+  </action>
+  <action name="action_cutcam">
+   <property name="text">
+    <string>断开相机</string>
+   </property>
+  </action>
+  <action name="action_cutrob">
+   <property name="text">
+    <string>断开机器人</string>
+   </property>
+  </action>
+  <action name="action_cutplc">
+   <property name="text">
+    <string>断开PLC</string>
+   </property>
+  </action>
+  <zorder>robot_Dock</zorder>
+  <zorder>dockWidget_2</zorder>
+  <zorder>dockWidget_3</zorder>
+  <zorder>PLC_dock</zorder>
+  <zorder>dockWidget_4</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
